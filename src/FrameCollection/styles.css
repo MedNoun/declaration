@@ -1,0 +1,21 @@
+.collection {
+  position: relative;
+  display: block;
+  z-index: 1;
+  transition: all 2s ease-in;
+}
+.wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  border: solid #f47340 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+}

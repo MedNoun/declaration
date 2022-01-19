@@ -1,0 +1,15 @@
+.frame img {
+  height: 310px;
+  width: auto;
+}
+
+.imagewraper {
+  margin: 20px;
+  object-fit: cover;
+  padding: 0;
+  height: 300px;
+  width: auto;
+  border-radius: 30px;
+  border: solid #f9d371 10px;
+  overflow: hidden;
+}

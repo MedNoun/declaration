@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #ef2f88;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.back {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/public/Linou/backFR.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
 }
 
-.App-link {
-  color: #61dafb;
+.app.hide .collection {
+  display: none;
+}
+.app.hide .text {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text {
+  position: relative;
+  display: none;
+  flex-flow: column;
+  color: #f9d371;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 60px;
+  transition: all 2s ease-in;
+}
+.text span {
+  text-align: center;
 }
